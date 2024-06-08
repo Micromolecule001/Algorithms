@@ -5,6 +5,8 @@ let searchFault = 44;
 
 // looking for a index of searching element
 
+// O(n)
+
 let LinearSearch = (arr, e) => {
     for (let i = 0; i < arr.length; i++) {
         itterationCount++;
